@@ -1,14 +1,14 @@
 # alarm
 目覚まし時計を作ってみた
 
-cronの設定方法：
-```crontab -e```
-で何かしらのエディタを用いてcronファイルを編集
-```30 6 * * * /usr/bin/mpg123 /path/to/alarm.mp3```
-等と記述。
-mpg123は
-```sudo apt install mpg321```
-でインストール。
+cronの設定方法：<br>
+```crontab -e```<br>
+で何かしらのエディタを用いてcronファイルを編集<br>
+```30 6 * * * /usr/bin/mpg123 /path/to/alarm.mp3```<br>
+等と記述。<br>
+mpg123は<br>
+```sudo apt install mpg321```<br>
+でインストール。<br>
 *の部分に入れる数字は、左から<br>
 1.minute (0 - 59)<br>
 2.hour (0 - 23)<br>
