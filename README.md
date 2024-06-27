@@ -3,7 +3,7 @@
 
 cronの設定方法：<br>
 ```crontab -e```<br>
-で何かしらのエディタを用いてcronファイルを編集<br>
+で何かしらのエディタを用いてcronファイルを編集.crontab自体の場所は/var/spool/crontab/{ユーザ名}<br>
 ```30 6 * * * /usr/bin/mpg123 /path/to/alarm.mp3```<br>
 等と記述。<br>
 mpg123は<br>
