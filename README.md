@@ -9,7 +9,7 @@ cronの設定方法：
 mpg123は
 ```sudo apt install mpg321```
 でインストール。
-*の部分に入れる数字は、左から
+*の部分に入れる数字は、左から<br>
 1.minute (0 - 59)<br>
 2.hour (0 - 23)<br>
 3.day of month (1 - 31)<br>
